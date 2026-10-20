@@ -1,4 +1,3 @@
-
 let count = 0;
 const countDisplay = document.getElementById("count");
 const countButton = document.getElementById("count-button");
@@ -7,9 +6,9 @@ countButton.addEventListener("click", function () {
   count = count + 1;
   countDisplay.textContent = count;
 
-  if (count === 108) {
+  if (count === 109) {
     count = 0;
-countDisplay.textContent = count;
+    countDisplay.textContent = count;
     malaMessage.textContent = "mala poori! 🙏";
   }
 
@@ -26,5 +25,3 @@ resetButton.addEventListener("click", function () {
 });
 // const RamMusic = document.getElementById("ram-music");
 // RamMusic.play();
-
-
